@@ -1,0 +1,12 @@
+appId: com.odyssey.local
+name: Odyssey local-first acceptance journey
+---
+- launchApp:
+    clearState: true
+- assertVisible: 'One goal. A route you can trust.'
+- tapOn: 'Main goal'
+- inputText: 'Pass the mathematics examination'
+- tapOn: 'Quest title'
+- inputText: 'Study mathematics'
+- tapOn: 'Start the voyage'
+- assertVisible: 'Your horizon is clear.'
